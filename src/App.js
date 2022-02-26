@@ -5,14 +5,7 @@ import Screen from './components/Screen';
 import ButtonBox from './components/ButtonBox';
 import Button from './components/Button';
 import React, { useState } from "react";
-
-const btnValues = [
- ["C", "+-", "%", "/"],
- ["7", "8", "9", "X"],
- ["4", "5", "6", "-"],
- ["1", "2", "3", "+"],
- ["0", ".", "="]
-];
+import btnValues from './utilities';
 
 
 const toLocaleString = (num) =>
